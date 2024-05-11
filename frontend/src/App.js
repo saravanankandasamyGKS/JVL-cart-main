@@ -39,6 +39,7 @@ import UserList from './components/admin/UserList';
 import UpdateUser from './components/admin/UpdateUser';
 import ReviewList from './components/admin/ReviewList';
 
+axios.defaults.baseURL = 'https://jvl-cart-main-2.onrender.com'
 function App() {
   const [stripeApiKey, setStripeApiKey] = useState("")
   useEffect(() => {
